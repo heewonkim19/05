@@ -7,13 +7,13 @@ int main(int argc, char *argv[])
 {
     int input;
     
-    printf("input number :");
+    printf("input a number :");
     scanf("%d", &input);
     
     if(input>0)
-       printf("positive\n");
+       printf("|x|=%d", input);
     else
-       printf("negative\n");
+       printf("|x|=%d", -input);
 	return 0;
 }
 
