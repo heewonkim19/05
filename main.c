@@ -5,10 +5,20 @@
 
 int main(int argc, char *argv[]) 
 {
-    int i;
-    for (i=0; i<10; i++)
-      printf("Hello world!\n"); 
+    int num;
+    char c;
     
+    printf("input a text:");
+    
+    while((c=getchar()) !='\n')
+    {
+    	if(c<= '9' && c>= '0')
+    	{
+		   num++;
+		}
+  
+		}    
+    printf("%i\n", num);
 	return 0;
 }
-
+ 
